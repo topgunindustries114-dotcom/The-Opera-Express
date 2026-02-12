@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Polar Express Opera GX Mod</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Background Music -->
+  <audio id="backgroundMusic" loop volume="0.5">
+    <source src="audio/backround-music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Key Sound Effect -->
+  <audio id="keySound" preload="auto">
+    <source src="audio/key-sound.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Browser Opening Sound -->
+  <audio id="openSound" preload="auto">
+    <source src="audio/open-sound.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Browser Closing Sound -->
+  <audio id="closeSound" preload="auto">
+    <source src="audio/close-sound.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="content">
+    <h1>Welcome to The Polar Express</h1>
+    <p>All aboard for adventure and holiday spirit!</p>
+    
+    <div class="controls">
+      <button id="musicToggle">🎵 Play Music</button>
+      <button id="soundToggle">🔊 Sound On</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

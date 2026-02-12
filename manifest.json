@@ -2,13 +2,16 @@
   "manifest_version": 3,
   "name": "The Polar Express Opera GX Mod",
   "version": "1.0.0",
-  "description": "A festive Polar Express themed mod for Opera GX with background music and sound effects",
+  "description": "A festive Polar Express themed mod for Opera GX with background music and sound effects. Experience the magic of the North Pole with immersive audio and beautiful Polar Express theming!",
   "author": "topgunindustries114",
+  "homepage_url": "https://github.com/topgunindustries114-dotcom/The-Opera-Express",
   "permissions": [],
   "action": {
     "default_title": "The Polar Express"
   },
   "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
     "128": "images/icon.png"
   }
 }
